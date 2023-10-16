@@ -2,10 +2,10 @@ import './App.css'
 import { useState } from "react";
 import Greetings from './components/Greetings.tsx'
 import Container from './components/Container.tsx'
-import Counter from './components/Counter.tsx'
+import Input from './components/Input.tsx';
 
 const App = () => {
-  const [a, setA] = useState<number>(0);
+  /*const [a, setA] = useState<number>(0);
   const [b, setB] = useState<number>(0);
 
   const AddA = (x: number) => {
@@ -24,7 +24,13 @@ const App = () => {
       =
       {a + b} 
     </>
-  );
+  );*/
+  return(
+    <>
+    <Input />
+    </>
+  )
+    
 }
 
 
