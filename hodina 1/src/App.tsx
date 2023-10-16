@@ -10,7 +10,7 @@ const App = () => {
 
   const AddA = (x: number) => {
     setA(y => y + x)
-
+  }
   const AddB = (x: number) => {
     setB(y => y + x)
   }
@@ -26,5 +26,6 @@ const App = () => {
     </>
   );
 }
+
 
 export default App

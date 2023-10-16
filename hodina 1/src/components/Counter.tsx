@@ -4,7 +4,7 @@ const Counter = (
     //{value, setValue}: {value: number, setValue: React.Dispatch<React.SetStateAction<number>>
     //{value, setValue}: {value: number, setValue: { (value: (prev:number) => number): void; (value: (prev: number) => number): void}
     //{value, setValue}: {value: number, setValue: (x: ((val:number) => number) | number) => void
-    {value, setValue}: {value: number, setValue: (x:number): => void
+    {value, setValue}: {value: number, setValue: (x:number) => void
     }) => {
     return (
         <span>
